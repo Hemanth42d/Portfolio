@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M V Hemanth</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6bf2bfea80.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="homePage">
+            <div class="header">
+                <header class="header-content">
+                    <a href="#logo" class="logo">
+                        Portfolio
+                    </a>
+    
+                    <nav class="navbar">
+                        <a href="#home" class="mobile-none">Home</a>
+                        <a href="#about" class="mobile-none">About</a>
+                        <a href="#services" class="mobile-none">Services</a>
+                        <a href="#skills" class="mobile-none">Skills</a>
+                        <a href="#projects" class="mobile-none">Projects</a>
+                        <a href="#contact" class="mobile-none">Contact</a>
+                        <li onclick=showMenuBar()>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed" class="menubar"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                            </a>
+                        </li>
+                    </nav>
+                    <nav class="sidebar">
+                        <a href="#home" class="hover-sec">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                        <li onclick=hidemenubar()>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed" class="closebar"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                            </a>
+                        </li>
+                    </nav>
+                </header>
+            </div>
+    
+            <div class="mainContent" id="home">
+                <div class="leftSec">
+                    <h2 class="leftSecHeading"><span class="colorChange">Hello</span>, It's <span>Me</span></h2>
+                    <h1 class="leftSecName">M.Venkata Hemanth</h1>
+                    <h2 class="leftSecHeading">And I am <span class="colorChange text"></span></h2>
+                    <p class="leftSecpara">I am a tech enthusiast.Learning various tech stacks like <span class="colorChange"> MERN</span>,<span class="colorChange">DSA</span> (using java),<span class="colorChange">Tailwind css</span> and etc...</p>
+                    <div class="mainContentIcons">
+                        <a href="https://www.linkedin.com/in/mada-venkata-hemanth-b25224208/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Hemanth42d"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/hemanth52914777"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="rightSec">
+                    <div class="image">
+                        <img src="WhatsApp Image 2024-09-19 at 17.47.15_335c6a42.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutSec" id="about">
+            <div class="aboutHeading">
+                <h1><span class="aboutColor">About</span> <span class="colorChange">Me</span></h1>
+            </div>
+            <div class="aboutContent">
+                <div class="aboutLeftSec">
+                    <img src="IMG20240803201619.1.jpg" alt="image" class="image2"> 
+                </div>
+                <div class="aboutRightSec">
+                    <div class="aboutDescription">
+                        I am Currently an 2nd year student at Mohan Babu University studying Computer Science Engineering.Have a lot of interest in tech.I likes linux operating system ecosystem.And always eager to learn new things on daily basis.Have an habit of reading self-help books alot.
+                    </div>
+                    <div class="aboutButton">
+                        <button>More About Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="serviceSec" id="services">
+            <div class="serviceHeading">
+                <h1>My <span class="colorChange">Services</span></h1>
+            </div>
+            <div class="serviceContent">
+                <div class="service">
+                    <h2 class="serviceLogo">&lt;/&gt;</h2>
+                    <h1 class="serviceHeading">UI/UX Design</h1>
+                    <p class="servicePara">Knows Figma Basics and Have an experience of designing some websites using Figma</p>
+                    <button class="serviceButton">Learn More</button>
+                </div>
+
+                <div class="service" style="background-image: url(web.jpg);">
+                    <h2 class="serviceLogo">&lt;/&gt;</h2>
+                    <h1 class="serviceHeading">web Development</h1>
+                    <p class="servicePara">Knows Figma Basics and Have an experience of designing some websites using Figma</p>
+                    <div class="button">
+                        <button class="serviceButton">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skillsSec" id="skills">
+            <div class="skillsHeading">
+                <h1>My <span class="colorChange">Skills</span></h1>
+            </div>
+            <div class="skillsContent">
+                <div class="technicalSkills">
+                    <h1 class="technicalSkillsHeading">Technical Skills</h1>
+                    <div class="technicalSkillsSec">
+                        <li>HTML</li><span class="skillPercent">80%</span>
+                        <li>CSS</li><span class="skillPercent2">75%</span>
+                        <li>Js</li><span class="skillPercent3">65%</span>
+                        <li>Node Js</li><span class="skillPercent4">60%</span>
+                        <li>MONGODB</li><span class="skillPercent5">60%</span>
+                        <li>EXPRESS JS</li><span class="skillPercent6">60%</span>
+                        <li>REACT</li><span class="skillPercent7">75%</span>
+                        <li>Java</li><span class="skillPercent8">85%</span>
+                        <li>TailWindCss</li><span class="skillPercent9">80%</span>
+                        <li>Figma</li><span class="skillPercent10">50%</span>
+                    </div>
+                </div>
+                <div class="professionalSkills">
+                    <h1 class="technicalSkillsHeading">Professional Skills</h1>
+                    <div class="professonalSkillsSec">
+                        <div class="ProfessionalSkillcontent">
+                            <div class="one">95%</div>
+                            <p class="subHeading">Creativity</p>
+                        </div>
+
+                        <div class="ProfessionalSkillcontent">
+                            <div class="one">75%</div>
+                            <p class="subHeading">Communication</p>
+                        </div>
+
+                        <div class="ProfessionalSkillcontent">
+                            <div class="one">75%</div>
+                            <p class="subHeading">Problem Solving</p>
+                        </div>
+
+                        <div class="ProfessionalSkillcontent">
+                            <div class="one">80%</div>
+                            <p class="subHeading">Team Work</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="latestProjectSec" id="projects">
+            <div class="projects">
+                <div class="projectHeading">
+                    <h1>Latest <span class="colorChange">Projects</span></h1>
+                    <marquee direction="right" class="marqueeTag">Click on those Images to view My projects on those Particular section</marquee>
+                </div>
+                <div class="projectsContent">
+                    <div class="firstProject" >
+                        <a href="frontendProjects.html" target="_blank"><img src="wed.jpg" alt="image" class="projectSecImg"></a>
+                    </div>
+
+                    <div class="firstProject" >
+                        <a href="reactProject.html" target="_blank"><img src="react.jpg" alt="image" class="secondProjectSecImg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactSection" id="contact">
+            <div class="leftContactSection">
+                <h1>Contact <span class="colorChange">Me</span></h1>
+                <h2>Lets Work Together</h2>
+                <p>If you wanna connect with me then you can follow me on my social media accounts.</p>
+                <div>
+                    <a href="#">
+                        <p class="emailId"><i class="fa-solid fa-arrow-right"></i>
+                            <span>
+                                <a href="#">venkatahemanth42d@gmail.com</a>
+                            </span>
+                        </p>
+                </a>
+            </div>
+                <div class="ContactIcons">
+                    <a href="https://www.linkedin.com/in/mada-venkata-hemanth-b25224208/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Hemanth42d">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://x.com/hemanth52914777">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="rightContactSection">
+                <form action="#" class="contactForm">
+                    <input type="text" name="Name" placeholder="Enter Your Name" class="inputBox">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" class="inputBox">
+                    <input type="text" name="subject" placeholder="Enter Your subject" class="inputBox">
+                    <textarea name="message" id="message"  class="inputBox" placeholder="Enter Your Message Here"></textarea>
+                    <button type="submit" class="subbmitButton">submit</button>
+                </form>
+            </div>
+        </div>
+
+       
+        <div class="footer">
+            <p class="footerDesc">Developed by M.Venakat Hemanth &copy; 2024</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
